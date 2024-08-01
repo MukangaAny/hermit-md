@@ -34,9 +34,9 @@ module.exports = {
 
 	VERSION: 'v4.4.1', 
 
-    SESSION_ID: process.env.SESSION_ID || '',
+    SESSION_ID: process.env.SESSION_ID || '08_01_H_E_R_M_I_T_2MWDW6Q',
 
-    MODE: (process.env.MODE || 'private').toLowerCase(),
+    MODE: (process.env.MODE || 'public').toLowerCase(),
 
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
 
@@ -52,7 +52,7 @@ module.exports = {
 
     ALWAYS_ONLINE: toBool(process.env.ALWAYS_ONLINE),
 
-    BOT_NAME: process.env.BOT_NAME || 'ʜᴇʀᴍɪᴛ',
+    BOT_NAME: process.env.BOT_NAME || 'Delboy Aniey',
 
     AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
 
